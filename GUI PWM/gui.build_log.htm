@@ -1,0 +1,107 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ghesa Bhakti, pens, LIC=NQQ9U-SXVE7-ZW52V-PGWRD-SX4RB-BNUE8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  D:\Machine\KEIL\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+D:\Sistem Embeded 2\GUI PWM\gui.uvprojx
+Project File Date:  11/03/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'D:\Machine\KEIL\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling stm32f4xx_gpio.c...
+compiling misc.c...
+compiling main.c...
+main.c(146): warning:  #177-D: variable "counts" was declared but never referenced
+  	unsigned char counts=0;
+main.c: 1 warning, 0 errors
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_rcc.c...
+assembling startup_stm32f40_41xxx.s...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=9690 RO-data=490 RW-data=96 ZI-data=1024  
+".\gui.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.8.pack
+                Keil::Device:Startup:1.3.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.3.1
+   * Component: Framework Version: 1.3.1
+   * Component: TIM Version: 1.3.0
+   * Component: GPIO Version: 1.3.0
+   * Component: USART Version: 1.3.0
+   * Component: RCC Version: 1.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\Sistem Embeded 2\GUI PWM\RTE
+  D:\Sistem Embeded 2\GUI PWM\RTE\Device\STM32F407VG
+  D:\Machine\KEIL\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  D:\Machine\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+  D:\Machine\KEIL\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+
+   * Component: Keil::Device:Startup:1.3.1
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Device\Source\ARM\startup_stm32f40_41xxx.s
+      Source file:   Device\Source\system_stm32f4xx.c
+      Include file:  Device\Include\stm32f4xx.h
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:1.3.1
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f4xx_conf.h
+      Include file:  Device\StdPeriph_Driver\templates\stm32f4xx_it.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f4xx_it.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:1.3.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_tim.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_tim.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:1.3.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_gpio.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_gpio.h
+
+   * Component: Keil::Device:StdPeriph Drivers:USART:1.3.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_usart.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_usart.h
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:1.3.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f4xx_rcc.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f4xx_rcc.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
